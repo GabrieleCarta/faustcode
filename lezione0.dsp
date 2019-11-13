@@ -12,7 +12,7 @@ import("stdfaust.lib"); // importare la libreria standard di faust
 // ogni riga di faust termina con un carattere ;
 // in ogni programma ci può essere un solo process = 
 // gli operatori matematici sono + - * /
-
+//si.bus serve per poter scriver tra parentesi il numero di canli;
 process = +;
 import("stdfaust.lib");
 process = +;
