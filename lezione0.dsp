@@ -8,7 +8,7 @@
 
 // importare la libreria standard di faust
 import("stdfaust.lib"); // importare la libreria standard di faust
-
+// il _ serve per indicare un canale;
 // ogni riga di faust termina con un carattere ;
 // in ogni programma ci può essere un solo process = 
 // gli operatori matematici sono + - * /
@@ -19,3 +19,4 @@ process = +;
 // faust esegue il contenuto di process
 // ogni riga deve finire con " ; "
 // in questo caso faust leggerà da riga 8 a riga 13 come un'unica riga di codice, in quanto il " ; " è presente solo in riga 13
+// / oltre che slah per un commento è il simbolo del diviso
