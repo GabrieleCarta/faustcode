@@ -23,3 +23,6 @@ process = +;
 // oltre che slah per un commento è il simbolo del diviso
 // il comando combina, unisce i canali in entrata in uno o più canali di uscita osservando un'ordine logico;
 // Un'ordine logico è smistare i canali uno dopo l altro in ordine (1_2_3_4 ecc...);
+// //scrivi un che abbia 16 entrate e 2 uscite rispettivamente per i canali pari e dispari, assicurandosi di non avere mai un valore superiore ad 1 per ciascuna uscita.
+import("stdfaust.lib");
+process=si.bus(16) :> _(8),_ /(8);
